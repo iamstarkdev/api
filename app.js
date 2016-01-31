@@ -20,7 +20,7 @@ var express = require('express')
     }
   });
 
-// variaveis e middlewares do server
+// variaveis e middlewares do servidor
 app.use(express.static(__dirname + '/public'));
 app.set('port', process.env.PORT || 4000);
 app.set('view engine', 'jade');
